@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="headers">
+        <h1>Etch-A-Sketch!</h1>
+        <h3>Just press and hold your mouse<br>and hover through the boxes to draw!</h3>
+    </div>
+
+    <div class="buttons__sections">
+        <button id="eraser">Erase</button>
+        <button id="draw">Draw</button>
+        <button id="reset">Reset</button>
+        <input type="color" name="drawColor" id="drawColor" value="black" onchange="getColorPickerValue(this.value)">
+    </div>
+
+    <div class="container" id="grid-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

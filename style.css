@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px; /* Adjust the width as needed */
+}
+
+.square {
+    width: 25px; /* Adjust the width and height as needed */
+    height: 25px;
+    border: 1px solid #000;
+}
+
+.buttons__sections {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.buttons__sections button  {
+    padding: 15px 25px;
+
+}
+
+.buttons__sections input {
+    height: 50px;
+    width: 60px;
+}
+
+.headers {
+    text-align: center;
+}
